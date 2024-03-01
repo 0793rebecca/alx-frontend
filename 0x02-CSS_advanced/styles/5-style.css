@@ -56,15 +56,3 @@ html {
   .section-tagline {
     color: var(--color-primary);
   }
-
-/* Set the font size of fonts in the body to font-size-medium */
-body {
-  font-size: var(--font-size-medium);
-}
-
-/* Your other CSS declarations can go here */
-
-/* Example: Set the font size of a specific element */
-h1 {
-  font-size: var(--font-size-x-large);
-}
