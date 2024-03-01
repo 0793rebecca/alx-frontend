@@ -17,6 +17,7 @@ html {
 
 /* Set body's font-family to font-family-base */
 body {
+  color: var(--text-color);
   font-family: var(--font-family-base);
 }
 
