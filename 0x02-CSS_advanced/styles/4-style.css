@@ -1,0 +1,32 @@
+/* Custom properties in root elements to use css variables */
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  :root {
+	  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Set body's font-family to font-family-base */
+body {
+  font-family: var(--font-family-base);
+}
+
+/* Target all 6 levels of section headings and set their font-family to font-family-title */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-title);
+}
+
+/* Your other CSS declarations can go here */
+
+/* Example: Set links' color */
+a {
+  color: var(--text-color);
+}
